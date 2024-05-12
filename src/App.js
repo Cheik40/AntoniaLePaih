@@ -36,8 +36,8 @@ function App() {
                 <Route path='/theatre' element={<CommisionTheatre />} />
 
                 <Route path='/about' element={<About />} />
-                <Route path='/contact' element={<Contact />} />
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Contact />} />
+                <Route path='/accueil' element={<Home />} />
 
                 <Route path='/circus' element={<ProjetCircus />} />
                 <Route path='/echappe' element={<ProjetLesEchappees />} />

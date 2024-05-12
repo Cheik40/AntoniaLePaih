@@ -54,7 +54,7 @@ const Navbar = () => {
                 <ul className={`nav-menu ${menuOpen ? "active" : ""}`}>
                     <li className='nav-item'>
                         <li className='nav-link'>
-                            <Link className='nav-link' to='/'>
+                            <Link className='nav-link' to='/accueil'>
                                 Accueil
                             </Link>
                         </li>
@@ -264,7 +264,7 @@ const Navbar = () => {
                             className='nav-link'
                             onClick={() => toggleMenu("contact")}
                         >
-                            <Link className='nav-link' to='/contact'>
+                            <Link className='nav-link' to='/'>
                                 Contact
                             </Link>
                         </li>
