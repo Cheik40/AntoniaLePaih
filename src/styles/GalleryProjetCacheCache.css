@@ -1,0 +1,59 @@
+@font-face {
+    font-family: OverpassMono;
+    src: url(../../public/OverpassMono-VariableFont_wght.ttf);
+}
+
+.GalleryProjetCircus {
+    max-width: 600px;
+    margin: 80px auto;
+    /* border: 1px solid #000; */
+    font-family: OverpassMono;
+    font-size: 0.9rem;
+}
+
+/* Styles des lignes */
+.rowGPC {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px; /* Espacement entre les lignes */
+    /* border: 1px solid #000; */
+}
+
+/* Styles des colonnes */
+.rowGPC-1-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+}
+
+.rowGPC-2-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+}
+
+.rowGPC-3-col-1 {
+    flex: 0 0 calc(100%);
+    /* padding: 0px 5px; */
+}
+
+.rowGPC-4-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+}
+
+.rowGPC-5-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    /* padding: 0px 5px; */
+}
+
+.rowGPC-6-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    /* padding: 0px 5px; */
+    font-size: 0.9rem;
+    margin-top: 5%;
+}
+span {
+    font-size: 1rem;
+    font-weight: 600;
+}

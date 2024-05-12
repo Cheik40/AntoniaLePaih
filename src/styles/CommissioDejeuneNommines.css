@@ -1,0 +1,92 @@
+@font-face {
+    font-family: OverpassMono;
+    src: url(../..//public/OverpassMono-VariableFont_wght.ttf);
+}
+
+.galleryCesar {
+    max-width: 800px;
+    margin: 80px auto;
+    /* border: 1px solid #000; */
+    font-family: OverpassMono;
+}
+
+/* Styles des lignes */
+.rowD {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px; /* Espacement entre les lignes */
+    /* border: 1px solid #000; */
+}
+
+/* Styles des colonnes */
+.rowD-1-col-1 {
+    flex: 0 0 calc(24%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    padding: 0px 5px;
+}
+
+.rowD-1-col-2:nth-child(1) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(0);
+}
+
+.rowD-2-col-1 {
+    flex: 0 0 calc(50%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    padding: 0px 5px;
+}
+
+.rowD-2-col-1:nth-child(1) {
+    flex: 0 0 calc(64%);
+    margin-left: calc(35%);
+    margin-top: calc(0%);
+}
+
+.rowD-3-col-2 {
+    flex: 0 0 calc(50%);
+    /* padding: 0px 5px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rowD-3-col-2:nth-child(1) {
+    flex: 0 0 calc(24%);
+    margin-left: calc(0%);
+    /* margin-top: calc(0%); */
+}
+
+.rowD-3-col-2:nth-child(2) {
+    flex: 0 0 calc(24%);
+    margin-left: calc(51.6%);
+    /* margin-top: calc(25%); */
+}
+
+.rowD-4-col-1 {
+    flex: 0 0 calc(50%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    padding: 0px 5px;
+    margin-bottom: 50px;
+}
+
+.rowD-4-col-1:nth-child(1) {
+    flex: 0 0 calc(64%);
+    margin-left: calc(35%);
+    margin-top: calc(0%);
+}
+
+.rowD-5-col-3 {
+    flex: 0 0 calc(24%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    /* padding: 0px 5px; */
+}
+
+.rowD-5-col-3:nth-child(1) {
+    flex: 0 0 calc(24%);
+    margin-right: 5px;
+    margin-top: calc(0%);
+}
+.rowD-5-col-3:nth-child(3) {
+    flex: 0 0 calc(24%);
+    margin-left: calc(20%);
+    /* margin-top: calc(0%); */
+}

@@ -1,0 +1,266 @@
+/* Gallery.css */
+@font-face {
+    font-family: OverpassMono;
+    src: url(../../public/OverpassMono-VariableFont_wght.ttf);
+}
+
+/* Styles généraux de la galerie */
+.gallery {
+    max-width: 1000px; /* Largeur maximale de la galerie */
+    margin: 80px auto; /* Centrer la galerie horizontalement */
+    /* padding: 20px; Espacement intérieur de la galerie */
+    /* border: 1px solid #000; */
+    font-family: OverpassMono;
+}
+
+/* Styles des lignes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px; /* Espacement entre les lignes */
+    /* border: 1px solid #000; */
+}
+
+/* Styles des colonnes */
+.col-4 {
+    flex: 0 0 calc(24%); /* 4 colonnes par ligne */
+    padding: 2px 4px; /* Espacement horizontal entre les colonnes */
+}
+
+/* Style pour centrer une photo */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%; /* Les images ne dépasseront pas leur conteneur */
+    height: auto; /* Maintenir le ratio hauteur/largeur */
+}
+
+/* Styles des colonnes */
+.col-3 {
+    flex: 0 0 calc(36.66%); /* 4 colonnes par ligne avec espacement entre les colonnes */
+    padding: 5px 4px; /* Espacement horizontal entre les colonnes */
+}
+
+.col-3:nth-child(1) {
+    flex: 0 0 calc(50%-15%); /* Ajustement pour la première colonne */
+    margin-left: calc(37%); /* Décalage pour centrer la première photo */
+}
+
+.first-column {
+    flex: 0 0 calc(34%); /* Ajustement pour la première colonne */
+    margin-left: calc(25% - 15px); /* Décalage pour centrer la première photo */
+    padding-top: calc(13.7%);
+}
+
+.row-4-col-4 {
+    flex: 0 0 calc(24%); /* 4 colonnes par ligne */
+    padding: 2px 4px; /* Espacement horizontal entre les colonnes */
+}
+
+.row-4-col-4:nth-child(1) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(25%); /* Décalage pour centrer la première photo */
+}
+
+.row-5-col-4 {
+    flex: 0 0 calc(24%); /* 4 colonnes par ligne */
+    padding: 2px 4px; /* Espacement horizontal entre les colonnes */
+}
+.row-5-col-4:nth-child(1) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-5-col-4:nth-child(2) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(25%); /* Décalage pour centrer la première photo */
+}
+
+.row-6-col-4 {
+    flex: 0 0 calc(24%); /* 4 colonnes par ligne */
+    padding: 2px 4px; /* Espacement horizontal entre les colonnes */
+}
+.row-6-col-4:nth-child(1) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-6-col-4:nth-child(2) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-6-col-4:nth-child(3) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+    margin-top: calc(-12%);
+}
+
+.row-7-col-4 {
+    flex: 0 0 calc(36.66%);
+    padding: 2px 4px;
+}
+.row-7-col-4:nth-child(1) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(37.5%); /* Décalage pour centrer la première photo */
+}
+.row-8-col-4 {
+    flex: 0 0 calc(36.66%);
+    padding: 2px 4px;
+}
+.row-8-col-4:nth-child(1) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(25%); /* Décalage pour centrer la première photo */
+}
+.row-8-col-4:nth-child(2) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-9-col-4 {
+    flex: 0 0 calc(24%);
+    padding: 2px 4px;
+}
+.row-9-col-4:nth-child(1) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(12.8%); /* Décalage pour centrer la première photo */
+    margin-top: calc(20%);
+}
+.row-9-col-4:nth-child(2) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-9-col-4:nth-child(3) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-10-col-4 {
+    flex: 0 0 calc(24%);
+    padding: 2px 4px;
+}
+.row-10-col-4:nth-child(1) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(25%); /* Décalage pour centrer la première photo */
+}
+
+.row-11-col-4 {
+    flex: 0 0 calc(24%);
+    padding: 2px 4px;
+}
+.row-11-col-4:nth-child(1) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(62.4%); /* Décalage pour centrer la première photo */
+}
+
+.row-12-col-2 {
+    flex: 0 0 calc(25%);
+    padding: 2px 4px;
+}
+.row-12-col-2:nth-child(1) {
+    flex: 0 0 calc(74%); /* Ajustement pour la première colonne */
+    margin-left: calc(25%); /* Décalage pour centrer la première photo */
+}
+
+.row-13-col-3 {
+    flex: 0 0 calc(25%);
+    padding: 2px 4px;
+}
+.row-13-col-3:nth-child(1) {
+    flex: 0 0 calc(24%); /* Ajustement pour la première colonne */
+    margin-left: calc(37.5%); /* Décalage pour centrer la première photo */
+}
+.row-13-col-3:nth-child(2) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-14-col-1 {
+    flex: 0 0 calc(36.66%);
+    padding: 2px 4px;
+}
+.row-14-col-1:nth-child(1):nth-child(1) {
+    margin-top: calc(-11.6%);
+    margin-left: calc(62.3%); /* Décalage pour centrer la première photo */
+}
+
+.row-15-col-2 {
+    flex: 0 0 calc(25%);
+    padding: 2px 4px;
+}
+.row-15-col-2:nth-child(1) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(25%); /* Décalage pour centrer la première photo */
+}
+.row-15-col-2:nth-child(2) {
+    flex: 0 0 calc(36.66%); /* Ajustement pour la première colonne */
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-16-col-3 {
+    flex: 0 0 calc(25%);
+    padding: 2px 4px;
+}
+.row-16-col-3:nth-child(1) {
+    margin-left: calc(11%); /* Décalage pour centrer la première photo */
+}
+.row-16-col-3:nth-child(2) {
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-16-col-3:nth-child(3) {
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-17-col-1 {
+    flex: 0 0 calc(76.6%);
+    padding: 2px 4px;
+}
+.row-17-col-1:nth-child(1) {
+    margin-left: calc(11%); /* Décalage pour centrer la première photo */
+}
+
+.row-18-col-1 {
+    flex: 0 0 calc(36.66%);
+    padding: 2px 4px;
+}
+.row-18-col-1:nth-child(1) {
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-19-col-3 {
+    flex: 0 0 calc(24%);
+    padding: 2px 4px;
+}
+.row-19-col-3:nth-child(1) {
+    flex: 0 0 calc(36.66%);
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-19-col-3:nth-child(2) {
+    margin-top: calc(-11.6%);
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-19-col-3:nth-child(3) {
+    margin-top: calc(-11.6%);
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+
+.row-20-col-1 {
+    flex: 0 0 calc(24%);
+    padding: 2px 4px;
+}
+.row-20-col-1:nth-child(1) {
+    margin-left: calc(37.5%); /* Décalage pour centrer la première photo */
+}
+
+.row-21-col-2 {
+    flex: 0 0 calc(36.66%);
+    padding: 2px 4px;
+}
+.row-21-col-2:nth-child(1) {
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}
+.row-21-col-2:nth-child(1) {
+    margin-left: calc(0%); /* Décalage pour centrer la première photo */
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: OverpassMono;
+    src: url(../../public/OverpassMono-VariableFont_wght.ttf);
+}
+/* ******************************************************* */
+
+.Header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    /* background: transparent; */
+}
+
+.visible {
+    position: relative;
+    top: 0px;
+    transition: top 0.4s ease-out;
+    width: 100%;
+}
+
+.hidden {
+    /* display: none; */
+    position: relative;
+    top: -200px;
+    transition: top 0.4s ease-out;
+    width: 100%;
+}
+/* ******************************************************* */
+.GalleryTheatre {
+    max-width: 700px;
+    margin: 80px auto;
+    /* border: 1px solid #000; */
+    font-family: OverpassMono;
+    font-size: 0.9rem;
+}
+
+/* Styles des lignes */
+.rowThea {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%; /* Espacement entre les lignes */
+    /* border: 1px solid #000; */
+}
+
+/* Styles des colonnes */
+.rowThea-1-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+}
+
+.rowThea-2-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+}
+
+.rowThea-3-col-1 {
+    flex: 0 0 calc(100%);
+    /* padding: 0px 5px; */
+}
+
+.rowThea-4-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+}
+
+.rowThea-5-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    /* padding: 0px 5px; */
+}
+
+.rowThea-7-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+}
+
+.rowThea-8-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+}
+
+.rowThea-9-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+}
+
+.rowThea-10-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+}
+
+.rowThea-6-col-1 {
+    flex: 0 0 calc(100%); /* 4 colonnes par ligne */
+    /* padding: 2px 4px; Espacement horizontal entre les colonnes */
+    /* padding: 0px 5px; */
+    font-size: 0.9rem;
+    margin-top: 5%;
+}
+
+span {
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: italic;
+}
