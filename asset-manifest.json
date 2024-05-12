@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NewSitePhotoAntonia/static/css/main.bccae9a6.css",
-    "main.js": "/NewSitePhotoAntonia/static/js/main.1845dd19.js",
+    "main.js": "/NewSitePhotoAntonia/static/js/main.c722aa9f.js",
     "static/js/453.4d49d145.chunk.js": "/NewSitePhotoAntonia/static/js/453.4d49d145.chunk.js",
     "static/media/cache_cache_4.jpg": "/NewSitePhotoAntonia/static/media/cache_cache_4.1682a0044a81eac66bdf.jpg",
     "static/media/2306_SoleilAmoureuxOscillant_PierrickGuillou_par_AntoniaLePaih-3.jpg": "/NewSitePhotoAntonia/static/media/2306_SoleilAmoureuxOscillant_PierrickGuillou_par_AntoniaLePaih-3.d87e7606ecbdd9144d91.jpg",
@@ -109,11 +109,11 @@
     "static/media/cesar22_rev_ambiance_ll_alepaih_bd-047-640x427.jpg": "/NewSitePhotoAntonia/static/media/cesar22_rev_ambiance_ll_alepaih_bd-047-640x427.31c1c4722bad6b8b6552.jpg",
     "index.html": "/NewSitePhotoAntonia/index.html",
     "main.bccae9a6.css.map": "/NewSitePhotoAntonia/static/css/main.bccae9a6.css.map",
-    "main.1845dd19.js.map": "/NewSitePhotoAntonia/static/js/main.1845dd19.js.map",
+    "main.c722aa9f.js.map": "/NewSitePhotoAntonia/static/js/main.c722aa9f.js.map",
     "453.4d49d145.chunk.js.map": "/NewSitePhotoAntonia/static/js/453.4d49d145.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bccae9a6.css",
-    "static/js/main.1845dd19.js"
+    "static/js/main.c722aa9f.js"
   ]
 }
